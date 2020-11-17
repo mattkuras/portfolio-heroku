@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;         
+    height: 800px;
+}
+.home-container:after {
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 75%; 
+    padding-top: 20px;
+    border-bottom: 1px solid white; 
+}
+
+.home-content {
+    position: relative ;
+    bottom: 150px;
+    /* border: solid white 1px; */
+    width: 100%;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: 'Megrim', cursive;
+    animation-duration: 3s;
+    animation-name: slidein;
+    /* font-family: 'Codystar', cursive; */
+}
+
+.home-content span {
+    font-family: 'Megrim', cursive;
+    font-size: 7rem;
+    color: white;
+}
+
+.home-content h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.social-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;       
+}
+
+.social-list a {
+    color: white;
+    font-size: 3.5rem;
+    margin: 0 25px;
+}
+
+.social-list a:hover {
+    color: aqua;
+}
+
