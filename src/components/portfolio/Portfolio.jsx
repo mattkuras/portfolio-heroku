@@ -40,7 +40,7 @@ const Portfolio = (props) => {
             <PortfolioCard
               name={"Ecommerce Store"}
               website={"https://guitar-store-app.herokuapp.com/"}
-              gitHubLink={"https://github.com/mattkuras/guitar-store"}
+              gitHubLink={"https://github.com/mattkuras/final-project"}
               description={
                 "App that allows users to pseudo purchase items online by selecting and adding to cart using Redux."
               }
