@@ -29,6 +29,13 @@
 .project-icon {
     font-size: 5rem;
 }
+@media (max-width: 450px){
+    .project-icon {
+        font-size: 3rem;
+    }
+
+}
+
 .card-cover.hide {
     position: absolute;
     height: 100%;
