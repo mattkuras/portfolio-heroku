@@ -39,33 +39,7 @@ const Home = (props) => {
     return Math.floor(Math.random() * Math.floor(max));
   }
 
-  const letters = ["m", "a", "t", "t", "k", "u", "r", "a", "s"];
 
-  //   const transitions = useTransition(letters, letter => letter.key, {
-  //     from: { transform: `translate(0, 100%)` },
-  //     enter: { transform: 'translate(0, 0%)' }
-  //     })
-
-  const titleLetters = letters.map((letter) => (
-    <Transition
-      from={{ transform: "translateX(220)" }}
-      to={{ transform: "translateX(0)" }}
-    >
-      {(props) => (
-        <span key={letter.key} style={{ props }}>
-          {letter}
-        </span>
-      )}
-    </Transition>
-  ));
-
-  //     const name = transitions.map(({letter, props, key}) =>
-  // <animated.span key={key} style={props}>{letter}</animated.span>
-  //     )
-  // const title = transitions.map(({letter, props, key}) => (
-
-  // <animated.span key={key} style={props}>letter</animated.span>
-  // ))
 
   return (
     <a name='home-con'>
@@ -78,8 +52,7 @@ const Home = (props) => {
           >
             {(props) => <span style={props}>Matt Kuras</span>}
           </Spring>
-          {/* <animated.span style={propsName}>M</animated.span><span>a</span><span>t</span><span>t</span> */}
-          {/* <span>K</span><span>u</span><span>r</span><span>a</span><span>s</span> */}
+          
           <animated.h3 style={propsTitle}>Full Stack Web Developer</animated.h3>
           <ul className="social-list">
             <animated.li style={propsName}>

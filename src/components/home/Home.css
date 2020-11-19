@@ -8,7 +8,18 @@
     justify-content: center;         
     height: 800px;
 }
-.home-container:after {
+@media (max-width: 400px) {
+    .home-container {
+        height: 1400px;
+    }
+    .home-content {
+        bottom: 0px;
+        position: relative;
+        top: -500px;
+    }
+}
+
+.home-content:after {
     content: "";
     display: block; 
     margin: 0 auto; 

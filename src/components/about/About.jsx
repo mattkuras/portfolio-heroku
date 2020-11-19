@@ -51,10 +51,10 @@ const About = (props) => {
           )}
         </VisibilitySensor>
 
-        <VisibilitySensor>
+        <VisibilitySensor partialVisibility={true} minTopValue={1}>
           {({ isVisible }) => (
             <Spring
-              delay={300}
+              delay={100}
               to={{
                 opacity: isVisible ? 1 : 0,
                 transform: isVisible ? "translateY(0)" : "translateY(50px)",
