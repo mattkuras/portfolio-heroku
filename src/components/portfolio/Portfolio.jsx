@@ -29,7 +29,7 @@ const Portfolio = (props) => {
               color={"DodgerBlue"}
             />
              <PortfolioCard
-              name={"a a a a a "}
+              name={"RSVP FC"}
               website={"https://www.rsvpfc.com/"}
               gitHubLink={"https://github.com/mattkuras/RSVP_FC"}
               description={
@@ -44,7 +44,7 @@ const Portfolio = (props) => {
               website={"https://atomic-habits-app.herokuapp.com/"}
               gitHubLink={"https://github.com/mattkuras/Habit-Helper"}
               description={
-                "App that uses a Rails API and React frontend framework that allows users to create identities and to keep daily progress stored on the app"
+                "Web application that helps users achieve goals of setting new habits, based off the book Atomic Habits"
               }
               skillHighlight={"Ruby on Rails, React"}
               icon={<DiReact />}
@@ -55,7 +55,7 @@ const Portfolio = (props) => {
               website={"http://drugchargegenerator.herokuapp.com/"}
               gitHubLink={"https://github.com/mattkuras/drug-charge-app"}
               description={
-                "App that utilizes custom Ruby class methods to webscrape online sites to quickly generate legal penalties for different types of drug related crimes, by US state."
+                "Web application that webscrapes law related sites to quickly generate legal penalties for different types of drug related crimes, by US state."
               }
               skillHighlight={"Ruby, React"}
               icon={<DiRuby />}

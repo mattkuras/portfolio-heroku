@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap');
 
 .portfolio-card {
-    height: 200px;
-    width: 30%;
+    height: 320px;
+    width: 32%;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 @media (max-width: 500px) {
     .portfolio-card {
@@ -28,6 +28,13 @@
     align-items: center;
     color: white;
 }
+
+@media (max-width: 500px) {
+    .card-cover span {
+      font-size: 5rem;
+    }
+  }
+
 .card-cover p {
     margin-top: 0;
     font-size: 1.5rem;
@@ -56,6 +63,8 @@
 }
 .card-cover button {
     width: 50px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 800;
 }
 
 .card-content {
@@ -71,7 +80,7 @@
 }
 .close-project{
     position: relative;
-    left: 100px;
+    text-align: right;
 }
 .card-content.hide {
     display: none;
