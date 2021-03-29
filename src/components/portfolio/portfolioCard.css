@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap');
 
 .portfolio-card {
-    height: 30%;
-    width: 27%;
+    height: 200px;
+    width: 30%;
     position: relative;
+    margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+    .portfolio-card {
+      width: 90%;
+    }
+  }
 
 .portfolio-container h1 {
     color: white;
@@ -25,6 +31,7 @@
 .card-cover p {
     margin-top: 0;
     font-size: 1.5rem;
+    display: inline;
 }
 .project-icon {
     font-size: 5rem;
@@ -37,15 +44,15 @@
 }
 
 .card-cover.hide {
-    position: absolute;
-    height: 100%;
-    width: 100%;
     display: none;
-    flex-direction: column;
+    /* position: absolute; */
+    /* height: 100%;
+    width: 100%;
+    flex-direction: column; */
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center;
     color: white;
-    font-size: 3rem;
+    font-size: 3rem; */
 }
 .card-cover button {
     width: 50px;
@@ -57,7 +64,8 @@
     z-index: 3;
     width: 100%;
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
     /* align-items: center; */
     color: white;
 }
@@ -67,12 +75,12 @@
 }
 .card-content.hide {
     display: none;
-    position: absolute;
+    /* position: absolute;
     z-index: 3;
     width: 100%;
     height: 100%;
     align-items: center;
-    color: white;
+    color: white; */
 }
 .card-content a {
     text-decoration: none;
@@ -82,6 +90,7 @@
 
 .card-content p {
     color: lightgray;
+    width: 100%;
 }
 .card-content a:visited {
     text-decoration: none;

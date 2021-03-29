@@ -1,7 +1,8 @@
 .links-list {
     display: flex;
     list-style-type: none;
-    justify-content: center;       
+    justify-content: space-evenly;       
+    padding-inline-start: 0;
 }
 
 

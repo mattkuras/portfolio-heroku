@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;         
-    height: 600px;
+    /* height: 600px; */
     position: relative;
     /* top: 500px; */
     /* border-bottom: solid white 1px; */
@@ -20,11 +20,13 @@
 .portfolio-cards {
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 50%;
     width: 100%;
 }
 
 h1 {
-    margin-top: 150px;
+    margin-top: 50px;
 }
+

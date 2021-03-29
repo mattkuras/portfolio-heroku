@@ -3,11 +3,13 @@ import "./Portfolio.css";
 import PortfolioCard from "./portfolioCard.jsx";
 import { DiReact, DiRuby } from "react-icons/di";
 import { SiRedux } from "react-icons/si";
+import { FaShoppingCart } from "react-icons/fa";
+import {GiSoccerBall} from 'react-icons/gi'
 
 const Portfolio = (props) => {
   return (
     <Fragment>
-      <a name='port-con'>
+      <a name="port-con">
         <div
           className="portfolio-container"
           id="portfolio-c"
@@ -15,6 +17,28 @@ const Portfolio = (props) => {
         >
           <h1>Portfolio</h1>
           <div className="portfolio-cards">
+            <PortfolioCard
+              name={"Kyle Sullivan Visual"}
+              website={"https://www.kylesullivanvisual.com/"}
+              gitHubLink={"https://github.com/mattkuras/ksully-portfolio"}
+              description={
+                "Fullstack website to sell photography prints, display portfolio, and communicate with customers"
+              }
+              skillHighlight={"Ruby on Rails, React, AWS"}
+              icon={<FaShoppingCart />}
+              color={"DodgerBlue"}
+            />
+             <PortfolioCard
+              name={"a a a a a "}
+              website={"https://www.rsvpfc.com/"}
+              gitHubLink={"https://github.com/mattkuras/RSVP_FC"}
+              description={
+                "Web Application designed to schedule soccer games and alert members of game news and updates"
+              }
+              skillHighlight={"OOP, Ruby on Rails, React"}
+              icon={<GiSoccerBall />}
+              color={"DodgerBlue"}
+            />
             <PortfolioCard
               name={"Habit Tracker"}
               website={"https://atomic-habits-app.herokuapp.com/"}
